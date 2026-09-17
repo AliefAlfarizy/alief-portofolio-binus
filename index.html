@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alief Alfarizy — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ── CURSOR ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ── NAV ── -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#hero" class="nav__logo">
+        <span>A</span>lief
+      </a>
+      <ul class="nav__list" id="navList">
+        <li><a href="#about" class="nav__link" data-text="Tentang">Tentang</a></li>
+        <li><a href="#skills" class="nav__link" data-text="Keahlian">Keahlian</a></li>
+        <li><a href="#education" class="nav__link" data-text="Pendidikan">Pendidikan</a></li>
+        <li><a href="#career" class="nav__link" data-text="Karier">Karier</a></li>
+        <li><a href="#contact" class="nav__cta">Hubungi Saya</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="toggle menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ══════════════════════════════════
+         HERO
+    ══════════════════════════════════ -->
+    <section class="hero" id="hero">
+      <div class="hero__noise"></div>
+
+      <div class="hero__left">
+        <p class="hero__eyebrow">
+          <span class="dot"></span> Open to Opportunities
+        </p>
+        <h1 class="hero__name">
+          <span class="line1">Alief</span>
+          <span class="line2">Alfarizy</span>
+        </h1>
+        <p class="hero__role">
+          <span class="hero__role-chip">💼 Business Dev</span>
+          <span class="hero__role-chip">🚀 Entrepreneur</span>
+          <span class="hero__role-chip">⚙️ Operations</span>
+        </p>
+        <p class="hero__bio">
+          Lulusan S1 BINUS University dengan passion di kewirausahaan,
+          pengembangan bisnis, dan operasional. Siap membawa ide
+          menjadi nyata.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn-primary">Mulai Kolaborasi</a>
+          <a href="#about" class="btn-ghost">Lihat Profil ↓</a>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="hero__card">
+          <div class="hero__avatar">AA</div>
+          <div class="hero__info">
+            <strong>Alief Alfarizy</strong>
+            <span>Malang, Jawa Timur</span>
+          </div>
+          <div class="hero__chips">
+            <span>🎓 BINUS University</span>
+            <span>📍 Malang, Jatim</span>
+            <span>💼 Business Dev</span>
+            <span>🚀 Entrepreneur</span>
+            <span>📊 Sales &amp; Marketing</span>
+            <span>⚙️ Operations</span>
+          </div>
+          <div class="hero__divider"></div>
+          <div class="hero__stats">
+            <div>
+              <b>9+</b>
+              <small>Keahlian</small>
+            </div>
+            <div>
+              <b>S1</b>
+              <small>Degree</small>
+            </div>
+            <div>
+              <b>5</b>
+              <small>Bidang Minat</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__marquee">
+          <div class="marquee__track">
+            <span>Leadership</span><span>·</span>
+            <span>Business Dev</span><span>·</span>
+            <span>Entrepreneurship</span><span>·</span>
+            <span>Sales</span><span>·</span>
+            <span>Marketing</span><span>·</span>
+            <span>Operations</span><span>·</span>
+            <span>Problem Solving</span><span>·</span>
+            <span>Team Work</span><span>·</span>
+            <span>Leadership</span><span>·</span>
+            <span>Business Dev</span><span>·</span>
+            <span>Entrepreneurship</span><span>·</span>
+            <span>Sales</span><span>·</span>
+            <span>Marketing</span><span>·</span>
+            <span>Operations</span><span>·</span>
+            <span>Problem Solving</span><span>·</span>
+            <span>Team Work</span><span>·</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         ABOUT
+    ══════════════════════════════════ -->
+    <section class="section about" id="about">
+      <div class="wrap">
+        <div class="section__label">01 — Tentang</div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <h2 class="section__title">Siapa Saya?</h2>
+            <p>
+              Saya adalah seorang <strong>Entrepreneurship Enthusiast</strong> lulusan
+              BINUS University yang percaya bahwa setiap masalah adalah peluang.
+              Dengan latar belakang di business development dan operasional,
+              saya siap berkontribusi dan menciptakan dampak nyata.
+            </p>
+            <p>
+              Memiliki kemampuan komunikasi, kepemimpinan, adaptasi, dan problem
+              solving yang baik — saya tumbuh paling baik di lingkungan yang
+              dinamis dan penuh tantangan.
+            </p>
+            <a href="#contact" class="btn-primary" style="margin-top:1.5rem; display:inline-flex;">Hubungi Saya →</a>
+          </div>
+          <div class="about__cards reveal">
+            <div class="acard acard--1">
+              <div class="acard__icon">🎯</div>
+              <h4>Fokus</h4>
+              <p>Business Development, Sales, dan Entrepreneurship sebagai core passion.</p>
+            </div>
+            <div class="acard acard--2">
+              <div class="acard__icon">🤝</div>
+              <h4>Kolaboratif</h4>
+              <p>Percaya bahwa hasil terbaik lahir dari kolaborasi dan komunikasi terbuka.</p>
+            </div>
+            <div class="acard acard--3">
+              <div class="acard__icon">⚡</div>
+              <h4>Adaptif</h4>
+              <p>Cepat beradaptasi dengan situasi baru dan terus belajar hal-hal baru.</p>
+            </div>
+            <div class="acard acard--4">
+              <div class="acard__icon">💡</div>
+              <h4>Inovatif</h4>
+              <p>Selalu mencari cara baru yang lebih efektif dan efisien untuk setiap tantangan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         SKILLS
+    ══════════════════════════════════ -->
+    <section class="section skills" id="skills">
+      <div class="wrap">
+        <div class="section__label">02 — Keahlian</div>
+        <h2 class="section__title reveal">Apa yang Saya Bisa</h2>
+        <p class="section__sub reveal">Skill yang saya kembangkan untuk menunjang karier dan bisnis</p>
+        <div class="skills__list">
+
+          <div class="skill reveal" style="--i:0">
+            <div class="skill__top">
+              <span class="skill__emoji">👑</span>
+              <h3>Leadership</h3>
+            </div>
+            <p>Memimpin tim dengan efektif, menginspirasi, dan mengarahkan untuk mencapai tujuan bersama.</p>
+            <div class="skill__tag">People</div>
+          </div>
+
+          <div class="skill reveal" style="--i:1">
+            <div class="skill__top">
+              <span class="skill__emoji">🚀</span>
+              <h3>Entrepreneurial Mindset</h3>
+            </div>
+            <p>Berpikir inovatif, berani ambil risiko terukur, dan selalu mencari peluang baru.</p>
+            <div class="skill__tag">Bisnis</div>
+          </div>
+
+          <div class="skill reveal" style="--i:2">
+            <div class="skill__top">
+              <span class="skill__emoji">📈</span>
+              <h3>Business Development</h3>
+            </div>
+            <p>Mengidentifikasi dan mengembangkan peluang bisnis untuk pertumbuhan berkelanjutan.</p>
+            <div class="skill__tag">Bisnis</div>
+          </div>
+
+          <div class="skill reveal" style="--i:3">
+            <div class="skill__top">
+              <span class="skill__emoji">🎧</span>
+              <h3>Customer Service</h3>
+            </div>
+            <p>Memberikan pelayanan terbaik dan membangun hubungan jangka panjang dengan pelanggan.</p>
+            <div class="skill__tag">People</div>
+          </div>
+
+          <div class="skill reveal" style="--i:4">
+            <div class="skill__top">
+              <span class="skill__emoji">💻</span>
+              <h3>MS Office &amp; G-Workspace</h3>
+            </div>
+            <p>Mahir menggunakan tools produktivitas untuk analisis, presentasi, dan kolaborasi.</p>
+            <div class="skill__tag">Tools</div>
+          </div>
+
+          <div class="skill reveal" style="--i:5">
+            <div class="skill__top">
+              <span class="skill__emoji">📣</span>
+              <h3>Digital Marketing Dasar</h3>
+            </div>
+            <p>Memahami pemasaran digital, media sosial, dan strategi konten secara fundamental.</p>
+            <div class="skill__tag">Marketing</div>
+          </div>
+
+          <div class="skill reveal" style="--i:6">
+            <div class="skill__top">
+              <span class="skill__emoji">🤝</span>
+              <h3>Teamwork &amp; Communication</h3>
+            </div>
+            <p>Berkomunikasi dengan jelas dan bekerja kolaboratif dalam lingkungan yang dinamis.</p>
+            <div class="skill__tag">People</div>
+          </div>
+
+          <div class="skill reveal" style="--i:7">
+            <div class="skill__top">
+              <span class="skill__emoji">⏱️</span>
+              <h3>Time Management</h3>
+            </div>
+            <p>Mengelola waktu dan prioritas secara efisien untuk hasil yang maksimal.</p>
+            <div class="skill__tag">Soft Skill</div>
+          </div>
+
+          <div class="skill reveal" style="--i:8">
+            <div class="skill__top">
+              <span class="skill__emoji">🧩</span>
+              <h3>Problem Solving</h3>
+            </div>
+            <p>Menganalisis masalah secara sistematis dan menemukan solusi yang kreatif dan efektif.</p>
+            <div class="skill__tag">Soft Skill</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         EDUCATION
+    ══════════════════════════════════ -->
+    <section class="section education" id="education">
+      <div class="wrap">
+        <div class="section__label">03 — Pendidikan</div>
+        <h2 class="section__title reveal">Latar Belakang Akademik</h2>
+        <div class="edu__block reveal">
+          <div class="edu__year">S1</div>
+          <div class="edu__body">
+            <div class="edu__school">BINUS University</div>
+            <div class="edu__degree">Sarjana Strata 1</div>
+            <p class="edu__desc">
+              Menempuh pendidikan tinggi di BINUS University dengan fokus
+              pada kewirausahaan dan pengembangan bisnis. Mendapatkan
+              pemahaman komprehensif tentang strategi bisnis, manajemen,
+              dan inovasi kewirausahaan yang membentuk pola pikir
+              saya sebagai seorang business professional.
+            </p>
+            <div class="edu__pills">
+              <span>Entrepreneurship</span>
+              <span>Business Strategy</span>
+              <span>Management</span>
+              <span>Innovation</span>
+            </div>
+          </div>
+          <div class="edu__badge">🎓</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         CAREER
+    ══════════════════════════════════ -->
+    <section class="section career" id="career">
+      <div class="wrap">
+        <div class="section__label">04 — Karier</div>
+        <h2 class="section__title reveal">Minat Karier</h2>
+        <p class="section__sub reveal">Bidang yang menjadi passion dan tujuan profesional saya</p>
+        <div class="career__grid">
+
+          <div class="ccard reveal" style="--i:0">
+            <div class="ccard__num">01</div>
+            <div class="ccard__top">
+              <span>🚀</span>
+              <h3>Entrepreneurship</h3>
+            </div>
+            <p>Membangun usaha sendiri dengan semangat inovasi dan keberanian dalam mengambil risiko yang terukur.</p>
+            <div class="ccard__arrow">→</div>
+          </div>
+
+          <div class="ccard reveal" style="--i:1">
+            <div class="ccard__num">02</div>
+            <div class="ccard__top">
+              <span>📊</span>
+              <h3>Business Development</h3>
+            </div>
+            <p>Mengidentifikasi peluang pasar, membangun kemitraan strategis, dan mendorong pertumbuhan bisnis.</p>
+            <div class="ccard__arrow">→</div>
+          </div>
+
+          <div class="ccard reveal" style="--i:2">
+            <div class="ccard__num">03</div>
+            <div class="ccard__top">
+              <span>🤝</span>
+              <h3>Sales</h3>
+            </div>
+            <p>Membangun relasi pelanggan yang kuat dan mendorong penjualan melalui strategi yang tepat sasaran.</p>
+            <div class="ccard__arrow">→</div>
+          </div>
+
+          <div class="ccard reveal" style="--i:3">
+            <div class="ccard__num">04</div>
+            <div class="ccard__top">
+              <span>📣</span>
+              <h3>Marketing</h3>
+            </div>
+            <p>Merancang dan mengeksekusi strategi pemasaran kreatif untuk meningkatkan brand awareness.</p>
+            <div class="ccard__arrow">→</div>
+          </div>
+
+          <div class="ccard reveal" style="--i:4">
+            <div class="ccard__num">05</div>
+            <div class="ccard__top">
+              <span>⚙️</span>
+              <h3>Operations</h3>
+            </div>
+            <p>Mengelola operasional bisnis secara efisien untuk memastikan kelancaran proses dan pencapaian target.</p>
+            <div class="ccard__arrow">→</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════
+         CONTACT
+    ══════════════════════════════════ -->
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <div class="section__label">05 — Kontak</div>
+        <div class="contact__grid">
+          <div class="contact__left reveal">
+            <h2 class="section__title">Mari<br/>Terhubung<span class="dot-accent">.</span></h2>
+            <p>
+              Terbuka untuk peluang kerja, kolaborasi bisnis, atau sekadar
+              ngobrol tentang kewirausahaan dan pengembangan bisnis.
+              Jangan ragu untuk reach out!
+            </p>
+            <div class="contact__links">
+              <a href="tel:081232866124" class="clink">
+                <span class="clink__icon">📞</span>
+                <div>
+                  <small>Telepon</small>
+                  <strong>081232866124</strong>
+                </div>
+              </a>
+              <a href="mailto:alfarizyalief3@gmail.com" class="clink">
+                <span class="clink__icon">✉️</span>
+                <div>
+                  <small>Email</small>
+                  <strong>alfarizyalief3@gmail.com</strong>
+                </div>
+              </a>
+              <div class="clink">
+                <span class="clink__icon">📍</span>
+                <div>
+                  <small>Lokasi</small>
+                  <strong>Malang, Jawa Timur</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact__right reveal">
+            <div class="contact__box">
+              <p class="contact__box-label">Siap berkolaborasi?</p>
+              <h3>Hubungi saya sekarang dan wujudkan ide bisnis bersama.</h3>
+              <a href="mailto:alfarizyalief3@gmail.com" class="btn-primary btn-block">
+                Kirim Pesan → 
+              </a>
+              <a href="tel:081232866124" class="btn-ghost btn-block">
+                Telepon Sekarang
+              </a>
+              <div class="contact__detail">
+                <span>📅 Lahir 04 April 2001</span>
+                <span>📌 Kuala Tanjung</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">AA</span>
+        <div>
+          <p>Alief Alfarizy</p>
+          <small>Entrepreneurship Enthusiast | Business Development</small>
+        </div>
+      </div>
+      <nav class="footer__nav">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#career">Karier</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+    <div class="footer__copy">
+      <div class="wrap">© 2024 Alief Alfarizy — Dibuat dengan semangat kewirausahaan.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
